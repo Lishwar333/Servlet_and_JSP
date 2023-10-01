@@ -20,21 +20,13 @@ public class AddServlet extends HttpServlet{
 		
 		req.setAttribute("c", c);
 		
+		// 1 Way of calling Servlet to Servlet
+		RequestDispatcher rd = req.getRequestDispatcher("sq"); 
+		rd.forward(req, res);
+		
 		// to display in web browser
 //		PrintWriter out = res.getWriter();
 //		out.println("The result is "+ c);
-		
-		// 1 Way of calling Servlet to Servlet
-//		RequestDispatcher rd = req.getRequestDispatcher("sq"); 
-//		rd.forward(req, res);
-		
-		// 2nd Way
-		
-		res.sendRedirect("sq?c="+c);
-		
-		
-		
-
 	}
 
 }

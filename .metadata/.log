@@ -2066,3 +2066,6 @@ Caused by: org.eclipse.emf.ecore.xmi.FeatureNotFoundException: Feature 'Servlet'
 	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:830)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
 	... 103 more
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-01 02:43:07.750
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource

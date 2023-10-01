@@ -10,15 +10,5 @@
         <servlet-name>abc</servlet-name>
         <url-pattern>/add</url-pattern>
     </servlet-mapping>
-    
-     <servlet>
-        <servlet-name>def</servlet-name>
-        <servlet-class>practice.servlet.SqServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>def</servlet-name>
-        <url-pattern>/sq</url-pattern>
-    </servlet-mapping>
 
 </web-app>
