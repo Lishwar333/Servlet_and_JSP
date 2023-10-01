@@ -8,7 +8,6 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
 
 public class AddServlet extends HttpServlet{
 	
@@ -19,7 +18,7 @@ public class AddServlet extends HttpServlet{
 		
 		int c = a+b;
 		
-		//req.setAttribute("c", c); used in all 3 below!
+		req.setAttribute("c", c);
 		
 		// to display in web browser
 //		PrintWriter out = res.getWriter();
@@ -29,14 +28,9 @@ public class AddServlet extends HttpServlet{
 //		RequestDispatcher rd = req.getRequestDispatcher("sq"); 
 //		rd.forward(req, res);
 		
-		// 2nd Way, also known as URLRewriting
-		//res.sendRedirect("sq?c="+c);
+		// 2nd Way
 		
-		//Using Session
-		HttpSession session = req.getSession();
-		session.setAttribute("c",c );
-		res.sendRedirect("sq");
-		
+		res.sendRedirect("sq?c="+c);
 		
 		
 		

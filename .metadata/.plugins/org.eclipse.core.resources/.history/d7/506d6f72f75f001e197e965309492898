@@ -35,6 +35,7 @@ public class AddServlet extends HttpServlet{
 		//Using Session
 		HttpSession session = req.getSession();
 		session.setAttribute("c",c );
+		
 		res.sendRedirect("sq");
 		
 		
