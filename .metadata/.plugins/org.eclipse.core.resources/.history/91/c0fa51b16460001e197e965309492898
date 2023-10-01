@@ -4,7 +4,6 @@
     <servlet>
         <servlet-name>abc</servlet-name>
         <servlet-class>practice.servlet.AddServlet</servlet-class>
-        
     </servlet>
 
     <servlet-mapping>
@@ -15,13 +14,6 @@
      <servlet>
         <servlet-name>def</servlet-name>
         <servlet-class>practice.servlet.SqServlet</servlet-class>
-        
-        <init-param>
-        
-        <param-name>name</param-name>
-        <param-value>Lishwar K</param-value>
-        
-        </init-param>
     </servlet>
 
     <servlet-mapping>
