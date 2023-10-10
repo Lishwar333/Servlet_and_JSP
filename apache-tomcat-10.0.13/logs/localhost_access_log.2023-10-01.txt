@@ -22,3 +22,6 @@
 0:0:0:0:0:0:0:1 - - [01/Oct/2023:19:46:08 +0530] "GET /Servlet_Practice_1/ HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [01/Oct/2023:19:46:12 +0530] "GET /Servlet_Practice_1/add?num1=5&num2=5 HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [01/Oct/2023:19:46:12 +0530] "GET /Servlet_Practice_1/sq HTTP/1.1" 200 35
+127.0.0.1 - - [01/Oct/2023:20:25:28 +0530] "GET / HTTP/1.1" 200 11363
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:20:25:28 +0530] "GET /Servlet_and_JSP_Practice_2/ HTTP/1.1" 200 339
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:20:25:34 +0530] "GET /Servlet_and_JSP_Practice_2/add.jsp?num1=5&num2=5 HTTP/1.1" 200 169
